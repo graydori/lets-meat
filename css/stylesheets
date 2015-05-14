@@ -1,0 +1,23 @@
+/*
+Errno::ENOTDIR: Not a directory - stylesheets/sass
+
+Backtrace:
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:482:in `read'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:209:in `each'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:293:in `watch'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/plugin.rb:108:in `method_missing'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/exec/base.rb:52:in `parse'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/lib/sass/exec/base.rb:19:in `parse!'
+/mnt/shared/lib/ruby/1.9.1/gems/sass-3.4.11/bin/sass:13:in `<top (required)>'
+/nix/store/yrs58pvf72cn1mcax0s685yw2dqzzvqv-ruby-1.9.3-p484/bin/sass:23:in `load'
+/nix/store/yrs58pvf72cn1mcax0s685yw2dqzzvqv-ruby-1.9.3-p484/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOTDIR: Not a directory - stylesheets/sass"; }
